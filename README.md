@@ -11,7 +11,7 @@ Create a dockerfile with
 version: '3'
 services:
   db:
-    image: mongo:3
+    image: mongo:3.4
     volumes:
       - .db:/data/db
   locomotive:
